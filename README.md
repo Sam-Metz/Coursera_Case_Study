@@ -33,4 +33,5 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
     * First, I cleaned this data by formatting the id’s to a number and expanded the date row to include all information.
     * Second, I uploaded the tables to Bigquery.
     * Third, I applied the following steps to the data from 3/12-4/11:
-         * Find the number of days that each user was wearing their fitbit during the date range:
+         * I found the number of days that each user was wearing their fitbit during the date range. To do this, I applied the following SQL query to the heartrate table:
+         * ![Day Count Query](day_count_query.jpg)
