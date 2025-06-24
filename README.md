@@ -10,7 +10,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
     * How could these trends influence Bellabeat's marketing strategy?
 ### Phase One: Ask
 * Are users wearing the watch as a fashionable accessory? Do they wear it all day?
-* Do users logging their weight in the device?
+* Do users frequently log their weight in the device?
 * What time of day do users typically exercise?
 * How far do users go during a workout?
 * How long do users workout for?
