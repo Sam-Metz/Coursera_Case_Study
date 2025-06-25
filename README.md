@@ -63,4 +63,10 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
             *  ![Final Usage Range Table](Final_Usage_Range_Table.png)
             * I used Excel to create a chart from this table as shown below:
             * ![Final Usage Range Chart](Final_Usage_Range_Chart.png)
-* This chart shows us that most fitbit users wear their watch between 12 and 24 hours per day. My recommendation to my stakeholders would be to market their product to users who are looking for a fashionable watch that they can wear all day, not just while working out. 
+   * This chart shows us that most fitbit users wear their watch between 12 and 24 hours per day. My recommendation to my stakeholders would be to market their product to users who are looking for a fashionable watch that they can wear all day, not just while working out.
+* How often are users utilizing the weight log function?
+   * To answer this, I prepared the weight log data sets by extracting the date from the column with Date-Time using flash fill in Excel. Then, I used the following sql query to merge the two tables, and count the number of distinct id’s that fell within each date range. This showed the number of unique user Id's that used the weight log each week. I chose to measure this on a weekly basis because this is a common weigh in frequency for someone who is trying to lose weight.
+   * ![Weight Log User Count Query1](Weight_Log_User_Count_Query1_Take2.jpg)
+   * This query created a table that I opened in Excel. In Excel, I added a percentage column that divided the number of unique users each week by the population size (30), and created a chart that plotted the weekly percentages on a line graph as shown below:
+   * ![Percent of Population Logging Weight Chart](Percent_of_Population_Logging_Weight_Chart.png)
+* 
