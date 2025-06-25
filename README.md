@@ -63,4 +63,4 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
             *  ![Final Usage Range Table](Final_Usage_Range_Table.png)
             * I used Excel to create a chart from this table as shown below:
             * ![Final Usage Range Chart](Final_Usage_Range_Chart.png)
-            * This chart shows us that most fitbit users wear their watch between 12 and 24 hours per day. My recommendation to my stakeholders would be to market their product to users who are looking for a fashionable watch that they can wear all day, not just while working out. 
+* This chart shows us that most fitbit users wear their watch between 12 and 24 hours per day. My recommendation to my stakeholders would be to market their product to users who are looking for a fashionable watch that they can wear all day, not just while working out. 
