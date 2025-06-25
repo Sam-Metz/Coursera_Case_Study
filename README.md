@@ -18,7 +18,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
 * How much sleep do the users get per night?
 ### Phase Two: Prepare
 * Is the data reliable?
-    * For purposes of this case study, I will use this data set. However, it is important to note the we are trying to make a claim about Fitbit users. Therefore, our population would be 38.5 million people. If we wanted to make claims about this population with 95% certainty, we would need a sample size of at leat 385 participants. If this were a real life scenario, I would recommend that we find a more representative data set.
+    * For purposes of this case study, I will use this data set. However, it is important to note the we are trying to make a claim about Fitbit users. Therefore, our population would be 38.5 million people. If we wanted to make claims about this population with 95% certainty, we would need a sample size of at least 385 participants. If this were a real life scenario, I would recommend that we find a more representative data set.
     * Further, the source of this data is Amazon Mechanical Turk. Therefore, this dataset is not random and it was not vetted for bias.
 * Is the data the original set?
     * Yes
