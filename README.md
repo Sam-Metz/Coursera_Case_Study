@@ -55,5 +55,12 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
             *  ![Hour Count Query3](Hour_Count_Query3.png)
             *  This resulted in a table that shows the Fitbit Id, total days the fitbit was used, and the total hours the fitbit was used. Below is a snip of the table for the 3/12-4/11 dataset:
             *  ![Hour Count Table3](Hour_Count_Table3.png)
-         * Since I applied these steps to both date ranges, I ended up with 2 tables. I combined these tables in Excel  
-            *  
+         * Since I applied these steps to both date ranges, I ended up with 2 tables.
+            * I combined these tables in Excel and added.  
+            * In a new tab, I used a sumif function to total the number of hours per user in one column and the number of days per user in another.
+               * I added a third column that divides the hours used by the days used to find each user's average daily use.
+            * In a new sheet, I created a table that used a countif function to add the number of users that fell within each usage range as shown below:
+            *  ![Final Usage Range Table](Final_Usage_Range_Table.png)
+            * I used Excel to create a chart from this table as shown below:
+            * ![Final Usage Range Chart](Final_Usage_Range_Chart.png)
+            * This chart shows us that most fitbit users wear their watch between 12 and 24 hours per day. My recommendation to my stakeholders would be to market their product to users who are looking for a fashionable watch that they can wear all day, not just while working out. 
