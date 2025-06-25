@@ -69,4 +69,4 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
    * ![Weight Log User Count Query1](Weight_Log_User_Count_Query1_Take2.jpg)
    * This query created a table that I opened in Excel. In Excel, I added a percentage column that divided the number of unique users each week by the population size (30), and created a chart that plotted the weekly percentages on a line graph as shown below:
    * ![Percent of Population Logging Weight Chart](Percent_of_Population_Logging_Weight_Chart.png)
-* 
+* The chart above shows that only a very small percentage of our population is using the weight log function. Based on this data, I would recommend that we investigate why this function is not being used. It could mean that only a small percentage of our population is trying to lose weight. Alternatively, it could also mean that the weight log funtion is not easy to use. We  
