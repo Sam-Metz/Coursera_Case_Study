@@ -56,7 +56,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
             *  This resulted in a table that shows the Fitbit Id, total days the fitbit was used, and the total hours the fitbit was used. Below is a snip of the table for the 3/12-4/11 dataset:
             *  ![Hour Count Table3](Hour_Count_Table3.png)
          * Since I applied these steps to both date ranges, I ended up with 2 tables.
-            * I combined these tables in Excel and added.  
+            * I combined these tables in Excel.  
             * In a new tab, I used a sumif function to total the number of hours per user in one column and the number of days per user in another.
                * I added a third column that divides the hours used by the days used to find each user's average daily use.
             * In a new sheet, I created a table that used a countif function to add the number of users that fell within each usage range as shown below:
