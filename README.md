@@ -35,3 +35,6 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
     * Third, I applied the following steps to the data from 3/12-4/11:
          * I found the number of days that each user was wearing their fitbit during the date range. To do this, I applied the following SQL query to the heartrate table:
          * ![Day Count Query](day_count_query.jpg)
+         * Below is the table created by this query:
+         * ![Day Count Table Example](Day_Count_Table_Example.png)
+         *  
