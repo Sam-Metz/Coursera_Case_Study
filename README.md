@@ -77,4 +77,15 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
       * ![Hourly Calories Query](Hourly_Calories_Query_image.png)
       * The query above combines the datasets from both date ranges, averages the calories for each hour, and groups the results by hour. I opened this table in Excel and created the following graph:
       * ![Hourly Calories Graph](Hourly_Calories_Graph.png)
-      * 
+   * Our population burns the most calories at 7PM each day. Based on this information, I would recommend that my stakeholders market to working professionals. The ads could be timed to get the most visibility by showing them in gyms at 7PM or right after when these users are coming home from the gym. This information could also inform decisions about the watch design. It might make sense to create a watch that can be worn while at work so that users do not need to remember to put it on before leaving for their workout.
+* How far do users go per day?
+   * To answer this question, I used the daily activity data sets. These tables show the distance that each user went each day. There is one table for the date range 3/12-4/11 and one for 4/12-5/12. I wanted to make sure there weren't duplicate dates for any one user. To do this, I applied the following query to each of the tables:
+   * ![Distance_Duplicate_Query](Distance_Duplicate_Query.png)
+   * This confirmed that there weren't duplicate dates for any user.
+   * Then, I ran the following query to combine the data sets from both ranges, find the average distance per user, and then count the number of users that fell within each distance range:
+   * ![Distance Range Query](Distance_Range_Query.png)
+   * I downloaded the table that this query created in Excel and made the folowing graph to show how many users fell within each kilometer range for an average day:
+   * ![Distance Range Graph](Distance_Per_Day_Chart.png)
+* Most users fall between 0-9 Km per day. The majority of users travel 3-6 Km per day. The daily activity table also has a column that shows sedentary distance. This column typicaly shows a 0 or very small number. This means that most of the distance being tracked is active distance. Therefore, we can assume that the users are traveling these distances for their workouts. We could use this information to market to runners or walkers that usually travel this distance. We could also design a watch that is user friendly for runners and walkers.
+* How long do users workout for?
+*    
