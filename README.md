@@ -87,5 +87,6 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
 * Most users fall between 0-9 Km per day. The majority of users travel 3-6 Km per day. The daily activity table also has a column that shows sedentary distance. This column typicaly shows a 0 or very small number. This means that most of the distance being tracked is active distance. Therefore, we can assume that the users are traveling these distances for their workouts. We could use this information to market to runners or walkers that usually travel this distance. We could also design a watch that is user friendly for runners and walkers.
 * How much sleep do users get per night?
    * To answer this question, I ran the following query on the sleep minutes table:
-   * ![Sleep Query] (Sleep_Query.png)
+   * ![Sleep Query](Sleep_Query.png)
+   * 
    * 
