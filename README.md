@@ -67,28 +67,43 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
    * ![Weight Log User Count Query1](Weight_Log_User_Count_Query1_Take2.jpg)
    * This query created a table that I opened in Excel. In Excel, I added a percentage column that divided the number of unique users each week by the population size (30), and created a chart that plotted the weekly percentages on a line graph as shown below:
    * ![Percent of Population Logging Weight Chart](Percent_of_Population_Logging_Weight_Chart.png)
-   * The chart above shows that only a very small percentage of our population is using the weight log function. Based on this data, I would recommend that we investigate why this function is not being used. It could mean that only a small percentage of our population is trying to lose weight. Alternatively, it could mean that the weight log funtion is not easy to use. We could search for datasets that shed light on the percentage of Fitbit users that use the device for weightloss or create a survey that attempts to uncover how Fitbit users feel about the weight log function. This information could provide valuable insight about whether or not we should market to people who are trying to lose weight. Depending on what we find, it could also mean a step toward improving the weight log function for our device.
+   * The chart above shows that only a very small percentage of our population is using the weight log function. Based on this data, I would recommend that we investigate why this function is not being used. It could mean that only a small percentage of our population is trying to lose weight. Alternatively, it could mean that the weight log funtion is not easy to use. We could search for datasets that shed light on the percentage of Fitbit users that use the device for weight loss or create a survey that attempts to uncover how Fitbit users feel about the weight log function. This information could provide valuable insight about whether or not we should market to people who are trying to lose weight. Depending on what we find, it could also mean a step toward improving the weight log function for our device.
 * What time of day do users exercise?
    * To answer this question, I used the hourly calories tables for both date ranges.
-      * I started by opening this table in excel and extracting the hour from the date-hour column using flash fill.
+      * I started by opening these tables in excel and extracting the hour from the date-hour column using flash fill.
       * Then, I downloaded the tables in to Bigquery and ran the following query on them:
       * ![Hourly Calories Query](Hourly_Calories_Query_image.png)
       * The query above combines the datasets from both date ranges, averages the calories for each hour, and groups the results by hour. I opened this table in Excel and created the following graph:
       * ![Hourly Calories Graph](Hourly_Calories_Graph.png)
-   * Our population burns the most calories at 7PM each day. Based on this information, I would recommend that my stakeholders market to working professionals. The ads could be timed to get the most visibility by showing them in gyms at 7PM or, right after, when these users are coming home from the gym. This information could also inform decisions about the watch design. It might make sense to create a watch that can be worn while at work so that users do not need to remember to put it on before leaving for their workout.
-* How far do users go during per day?
+   * Our population burns the most calories at 7PM each day. Based on this information, I would recommend that my stakeholders market to working professionals. Our advertisements could be timed to get the most visibility by showing them in gyms at 7PM or, right after, when these users are coming home from the gym. This information could also inform decisions about the watch design. It might make sense to create a watch that can be worn while at work so that users do not need to remember to put it on before leaving for their workout.
+* How far do users go per day?
    * To answer this question, I used the daily activity datasets. These tables show the distance that each user went each day. There is one table for the date range 3/12-4/11 and one for 4/12-5/12. I wanted to make sure there weren't duplicate dates for any one user. To do this, I applied the following query to each of the tables:
    * ![Distance_Duplicate_Query](Distance_Duplicate_Query.png)
-   * This confirmed that there weren't duplicate dates for any user.
+   * This confirmed that there weren't duplicate dates for any user. If there were duplicate dates per user, I would have to sum the distances for each date. 
    * Then, I ran the following query to combine the data sets from both ranges, find the average distance per user, and then count the number of users that fell within each distance range:
    * ![Distance Range Query](Distance_Range_Query.png)
    * I downloaded the table that this query created in Excel and made the folowing graph to show how many users fell within each kilometer range for an average day:
    * ![Distance Range Graph](Distance_Per_Day_Chart.png)
-* Most users fall between 0-9 Km per day. The majority of users travel 3-6 Km per day. The daily activity table also has a column that shows sedentary distance. This column typicaly shows a 0 or very small number. This means that most of the distance being tracked is active distance. Therefore, we can assume that the users are traveling these distances for their workouts. We could use this information to market to runners or walkers that usually travel this distance. We could also design a watch that is user friendly for runners and walkers.
+* Most users fall between 0-9 Km per day. The majority of users travel 3-6 Km per day. The daily activity table also has a column that shows sedentary distance. This column typicaly shows a 0 or a very small number. This means that most of the distance being tracked is active distance. Therefore, we can assume that the users are traveling these distances for their workouts or, at the very least, walking. We could use this information to market to runners or walkers that usually travel this distance. We could also design a watch that is user friendly for runners and walkers.
 * How much sleep do users get per night?
    * To answer this question, I ran the following query on the sleep minutes table:
    * ![Sleep Query](Sleep_Query_2.png)
    * This produced a dataset that I downloaded in to Tableau. There, I created the following viz:
    * ![Sleep Viz](Sleep_Viz.png)
-   * Most users get between 5-9 hours of sleep per night. 23/30 users wore their watch to bed in this dataset. This shows that the sleep tracking function is used by the majority of Fitbit users. Bellabeat should have a sleep tracking feature and market this feature to their users.  
-   * 
+   * Most users get between 5-9 hours of sleep per night. 23/30 users wore their watch to bed in this dataset. This shows that the sleep tracking function is used by the majority of Fitbit users. Bellabeat should have a sleep tracking feature and market this feature to their users.
+### Phase 5: Share
+* Are users wearing the watch as a fashionable accessory? Do they wear it all day?
+   * ![Final Usage Range Chart](Final_Usage_Range_Chart.png)
+   * Most fitbit users wear their watch between 12 and 24 hours per day. My recommendation is to market our product to users who are looking for a fashionable watch that they can wear all day, not just while working out. We should also make sure our watch is fashionable enough to be worn all day.
+* Do users frequently log their weight in the device?
+   * ![Percent of Population Logging Weight Chart](Percent_of_Population_Logging_Weight_Chart.png)
+   * Only a very small percentage of Fitbit users use the weight log function. Based on this data, I would recommend that we investigate why this function is not being used. It could mean that only a small percentage of our population is trying to lose weight. Alternatively, it could mean that the weight log funtion is not easy to use. We could search for datasets that shed light on the percentage of Fitbit users that use the device for weight loss or create a survey that attempts to uncover how Fitbit users feel about the weight log function. This information could provide valuable insight about whether or not we should market to people who are trying to lose weight. Depending on what we find, it could also mean a step toward improving the weight log function for our device.
+* What time of day do users typically exercise?
+   * ![Hourly Calories Graph](Hourly_Calories_Graph.png)
+   * Users burn the most calories at 7PM each day. Based on this information, I would recommend that we market to working professionals. Our advertisements could be timed to get the most visibility by showing them in gyms at 7PM or, right after, when these users are coming home from the gym. This information could also inform decisions about the watch design. It might make sense to create a watch that can be worn while at work so that users do not need to remember to put it on before leaving for their workout.
+* How far do users go per day?
+   * ![Distance Range Graph](Distance_Per_Day_Chart.png)
+   * Most users fall between 0-9 Km per day. The majority of users travel 3-6 Km per day. Our data indicates that most of this distance is covered during active minutes. Therefore, our users are not driving these distances. We can assume that the users are traveling these distances for their workouts or, at the very least, walking. We could use this information to market to runners or walkers that usually travel this distance. We could also design a watch that is user friendly for runners and walkers.
+* How much sleep do the users get per night?
+   * ![Sleep Viz](Sleep_Viz.png)
+   * Most users get between 5-9 hours of sleep per night. 23/30 users wore their watch to bed in this dataset. This shows that the sleep tracking function is used by the majority of Fitbit users. Bellabeat should have a sleep tracking feature and market this feature to their users.
