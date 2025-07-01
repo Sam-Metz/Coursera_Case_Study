@@ -91,7 +91,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
    * This produced a dataset that I downloaded in to Tableau. There, I created the following viz:
    * ![Sleep Viz](Sleep_Viz.png)
    * Most users get between 5-9 hours of sleep per night. 23/30 users wore their watch to bed in this dataset. This shows that the sleep tracking function is used by the majority of Fitbit users. Bellabeat should have a sleep tracking feature and market this feature to their users.
-### Phase 5: Share
+### Phase 5 and 6: Share and Act
 * Are users wearing the watch as a fashionable accessory? Do they wear it all day?
    * ![Final Usage Range Chart](Final_Usage_Range_Chart.png)
    * Most fitbit users wear their watch between 12 and 24 hours per day. My recommendation is to market our product to users who are looking for a fashionable watch that they can wear all day, not just while working out. We should also make sure our watch is fashionable enough to be worn all day.
