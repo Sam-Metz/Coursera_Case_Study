@@ -1,5 +1,5 @@
 # Coursera_Case_Study
-I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate.
+I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
 ## Prompt
 * You are a data analyst for a company called Bellabeat. Bellabeat makes wearable fitness devices.
 * Your team has been asked to anazlyze trends in smart fitness device usage in an effort to help Bellabeat reach their target market more effectively.
@@ -12,11 +12,11 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
 * Are users wearing the watch as a fashionable accessory? Do they wear it all day?
 * Do users frequently log their weight in the device?
 * What time of day do users typically exercise?
-* How far do users go during a workout?
+* How far do users go per day?
 * How much sleep do the users get per night?
 ### Phase Two: Prepare
 * Is the data reliable?
-    * For purposes of this case study, I will use this data set. However, it is important to note the we are trying to make a claim about Fitbit users. Therefore, our population would be 38.5 million people. If we wanted to make claims about this population with 95% certainty, we would need a sample size of at least 385 participants. If this were a real life scenario, I would recommend that we find a more representative data set.
+    * For purposes of this case study, I will use the dataset provided. However, it is important to note the we are trying to make a claim about Fitbit users. Therefore, our population would be 38.5 million people. If we wanted to make claims about this population with 95% certainty, we would need a sample size of at least 385 participants. If this were a real life scenario, I would recommend that we find a more representative data set.
     * Further, the source of this data is Amazon Mechanical Turk. Therefore, this dataset is not random and it was not vetted for bias.
 * Is the data the original set?
     * Yes
@@ -67,7 +67,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
    * ![Weight Log User Count Query1](Weight_Log_User_Count_Query1_Take2.jpg)
    * This query created a table that I opened in Excel. In Excel, I added a percentage column that divided the number of unique users each week by the population size (30), and created a chart that plotted the weekly percentages on a line graph as shown below:
    * ![Percent of Population Logging Weight Chart](Percent_of_Population_Logging_Weight_Chart.png)
-   * The chart above shows that only a very small percentage of our population is using the weight log function. Based on this data, I would recommend that we investigate why this function is not being used. It could mean that only a small percentage of our population is trying to lose weight. Alternatively, it could mean that the weight log funtion is not easy to use. We could search for datasets that shed light on the percentage of Fitbit users that use the device for weightloss or create a survey that attempts to uncover how Fitbit users feel about the weight log function. This information could provide valuable information about whether or not we should market to people who are trying to lose weight. Depending on what we find, it could also mean a step toward improving the weight log function for our device.
+   * The chart above shows that only a very small percentage of our population is using the weight log function. Based on this data, I would recommend that we investigate why this function is not being used. It could mean that only a small percentage of our population is trying to lose weight. Alternatively, it could mean that the weight log funtion is not easy to use. We could search for datasets that shed light on the percentage of Fitbit users that use the device for weightloss or create a survey that attempts to uncover how Fitbit users feel about the weight log function. This information could provide valuable insight about whether or not we should market to people who are trying to lose weight. Depending on what we find, it could also mean a step toward improving the weight log function for our device.
 * What time of day do users exercise?
    * To answer this question, I used the hourly calories tables for both date ranges.
       * I started by opening this table in excel and extracting the hour from the date-hour column using flash fill.
@@ -75,9 +75,9 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
       * ![Hourly Calories Query](Hourly_Calories_Query_image.png)
       * The query above combines the datasets from both date ranges, averages the calories for each hour, and groups the results by hour. I opened this table in Excel and created the following graph:
       * ![Hourly Calories Graph](Hourly_Calories_Graph.png)
-   * Our population burns the most calories at 7PM each day. Based on this information, I would recommend that my stakeholders market to working professionals. The ads could be timed to get the most visibility by showing them in gyms at 7PM or right after when these users are coming home from the gym. This information could also inform decisions about the watch design. It might make sense to create a watch that can be worn while at work so that users do not need to remember to put it on before leaving for their workout.
-* How far do users go per day?
-   * To answer this question, I used the daily activity data sets. These tables show the distance that each user went each day. There is one table for the date range 3/12-4/11 and one for 4/12-5/12. I wanted to make sure there weren't duplicate dates for any one user. To do this, I applied the following query to each of the tables:
+   * Our population burns the most calories at 7PM each day. Based on this information, I would recommend that my stakeholders market to working professionals. The ads could be timed to get the most visibility by showing them in gyms at 7PM or, right after, when these users are coming home from the gym. This information could also inform decisions about the watch design. It might make sense to create a watch that can be worn while at work so that users do not need to remember to put it on before leaving for their workout.
+* How far do users go during per day?
+   * To answer this question, I used the daily activity datasets. These tables show the distance that each user went each day. There is one table for the date range 3/12-4/11 and one for 4/12-5/12. I wanted to make sure there weren't duplicate dates for any one user. To do this, I applied the following query to each of the tables:
    * ![Distance_Duplicate_Query](Distance_Duplicate_Query.png)
    * This confirmed that there weren't duplicate dates for any user.
    * Then, I ran the following query to combine the data sets from both ranges, find the average distance per user, and then count the number of users that fell within each distance range:
