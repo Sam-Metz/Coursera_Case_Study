@@ -3,7 +3,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
 ## Prompt
 * You are a data analyst for a company called Bellabeat. Bellabeat makes wearable fitness devices.
 * Your team has been asked to anazlyze trends in smart fitness device usage in an effort to help Bellabeat reach their target market more effectively.
-* A data set about fitbit users is provided by the company.
+* A data set about Fitbit users is provided by the company.
 * Questions:
     * What are some trends in smart device usage?
     * How could these trends apply to Bellabeat's customers?
