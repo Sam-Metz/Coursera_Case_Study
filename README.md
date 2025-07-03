@@ -51,7 +51,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
             *  ![Hour Count Table2](Hour_Count_table2.png)
             *  I joined this table with the day count table using the following query:
             *  ![Hour Count Query3](Hour_Count_Query3.png)
-            *  This resulted in a table that shows the Fitbit Id, total days the fitbit was used, and the total hours the fitbit was used. Below is a snip of the table for the 3/12-4/11 dataset:
+            *  This resulted in a table that showed the Fitbit Id, total days the fitbit was used, and the total hours the fitbit was used. Below is a snip of the table for the 3/12-4/11 dataset:
             *  ![Hour Count Table3](Hour_Count_Table3.png)
          * Since I applied these steps to both date ranges, I ended up with 2 tables.
             * I combined these tables in Excel.  
