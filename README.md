@@ -94,7 +94,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
 ### Phase 5 and 6: Share and Act
 * Are users wearing the watch as a fashionable accessory? Do they wear it all day?
    * ![Final Usage Range Chart](Final_Usage_Range_Chart.png)
-   * Yes, most users wear their watch all day. I recommend that we market our product to users who are looking for a fashionable watch that they can wear all day, not just while working out. We should also make sure our watch is fashionable enough to be worn all day.
+   * Yes, most users wear their watch all day. I recommend that we market our product to users who are looking for a fashionable watch. We should also make sure our watch is fashionable enough to be worn all day.
 * Do users frequently log their weight in the device?
    * ![Percent of Population Logging Weight Chart](Percent_of_Population_Logging_Weight_Chart.png)
    * Only a very small percentage of Fitbit users use the weight log function. Further investigation is needed to find out why. This may not be a strong area of focus for our product until that investigation is done. 
