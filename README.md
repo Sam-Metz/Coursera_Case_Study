@@ -94,16 +94,16 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
 ### Phase 5 and 6: Share and Act
 * Are users wearing the watch as a fashionable accessory? Do they wear it all day?
    * ![Final Usage Range Chart](Final_Usage_Range_Chart.png)
-   * Most fitbit users wear their watch between 12 and 24 hours per day. My recommendation is to market our product to users who are looking for a fashionable watch that they can wear all day, not just while working out. We should also make sure our watch is fashionable enough to be worn all day.
+   * Yes, most users wear their watch all day. I recommend that we market our product to users who are looking for a fashionable watch that they can wear all day, not just while working out. We should also make sure our watch is fashionable enough to be worn all day.
 * Do users frequently log their weight in the device?
    * ![Percent of Population Logging Weight Chart](Percent_of_Population_Logging_Weight_Chart.png)
-   * Only a very small percentage of Fitbit users use the weight log function. Based on this data, I would recommend that we investigate why this function is not being used. It could mean that only a small percentage of our population is trying to lose weight. Alternatively, it could mean that the weight log funtion is not easy to use. We could search for datasets that shed light on the percentage of Fitbit users that use the device for weight loss or create a survey that attempts to uncover how Fitbit users feel about the weight log function. This information could provide valuable insight about whether or not we should market to people who are trying to lose weight. Depending on what we find, it could also mean a step toward improving the weight log function for our device.
+   * Only a very small percentage of Fitbit users use the weight log function. Further investigation is needed to find out why. This may not be a strong area of focus for our product until that investigation is done. 
 * What time of day do users typically exercise?
    * ![Hourly Calories Graph](Hourly_Calories_Graph.png)
-   * Users burn the most calories at 7PM each day. Based on this information, I would recommend that we market to working professionals. Our advertisements could be timed to get the most visibility by showing them in gyms at 7PM or, right after, when these users are coming home from the gym. This information could also inform decisions about the watch design. It might make sense to create a watch that can be worn while at work so that users do not need to remember to put it on before leaving for their workout.
+   * Users burn the most calories at 7PM each day. I would recommend that we market to working professionals with this time frame in mind. We should also create a watch that fits a professional dress code to accommodate these users.
 * How far do users go per day?
    * ![Distance Range Graph](Distance_Per_Day_Chart.png)
-   * Most users fall between 0-9 Km per day. The majority of users travel 3-6 Km per day. Our data indicates that most of this distance is covered during active minutes. Therefore, our users are not driving these distances. We can assume that the users are traveling these distances for their workouts or, at the very least, walking. We could use this information to market to runners or walkers that usually travel this distance. We could also design a watch that is user friendly for runners and walkers and has an effective mileage tracker.
+   * Most users fall between 0-9 Km per day. We should also design a watch that is user friendly for runners and walkers and has an effective mileage tracker.
 * How much sleep do the users get per night?
    * ![Sleep Viz](Sleep_Viz.png)
-   * Most users get between 5-9 hours of sleep per night. 23/30 users wore their watch to bed in this dataset. This shows that the sleep tracking function is used by the majority of Fitbit users. Bellabeat should have a sleep tracking feature and market this feature to their users.
+   * Most users get between 5-9 hours of sleep per night. 23/30 users wore their watch to bed in this dataset. Bellabeat should have a sleep tracking feature and market this feature to their users.
