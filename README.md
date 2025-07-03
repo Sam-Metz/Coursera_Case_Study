@@ -70,7 +70,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
    * The chart above shows that only a very small percentage of our population is using the weight log function. Based on this data, I would recommend that we investigate why this function is not being used. It could mean that only a small percentage of our population is trying to lose weight. Alternatively, it could mean that the weight log funtion is not easy to use. We could search for datasets that shed light on the percentage of Fitbit users that use the device for weight loss or create a survey that attempts to uncover how Fitbit users feel about the weight log function. This information could provide valuable insight about whether or not we should market to people who are trying to lose weight. Depending on what we find, it could also mean a step toward improving the weight log function for our device.
 * What time of day do users exercise?
    * To answer this question, I used the hourly calories tables for both date ranges.
-      * I started by opening these tables in excel and extracting the hour from the date-hour column using flash fill.
+      * I started by opening these tables in Excel. Then, I extracted the hour from the date-hour column using flash fill.
       * Then, I downloaded the tables in to Bigquery and ran the following query on them:
       * ![Hourly Calories Query](Hourly_Calories_Query_image.png)
       * The query above combines the datasets from both date ranges, averages the calories for each hour, and groups the results by hour. I opened this table in Excel and created the following graph:
