@@ -103,7 +103,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
    * Users burn the most calories at 7PM each day. I would recommend that we market to working professionals with this time frame in mind. We should also create a watch that fits a professional dress code to accommodate these users.
 * How far do users go per day?
    * ![Distance Range Graph](Distance_Per_Day_Chart.png)
-   * Most users fall between 0-9 Km per day. We should also design a watch that is user friendly for runners and walkers and has an effective mileage tracker.
+   * Most users fall between 0-9 Km per day. We should design a watch that is user friendly for runners and walkers and has an effective mileage tracker.
 * How much sleep do the users get per night?
    * ![Sleep Viz](Sleep_Viz.png)
    * Most users get between 5-9 hours of sleep per night. 23/30 users wore their watch to bed in this dataset. Bellabeat should have a sleep tracking feature and market this feature to their users.
