@@ -27,7 +27,7 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
 ### Phase Three and Four: Process and Analyze
 * Are users wearing the watch as a fashionable accessory? Do they wear it all day?
     * For this task, I used the heartrate_seconds_merged.csv tables. There is one for the first date range (3/12-4/11), and one for the second date range (4/12-5/12). A preview of this table is shown below. A user must be wearing the watch for their heartrate to be tracked. Therefore, this table will show us how long each user wears their watch:
-    * ![Heartrate Table Example](heart_rate_table.jpg)
+    * ![Heartrate Table Example](Assets/heart_rate_table.jpg)
     * First, I cleaned this data by formatting the id’s to a number and expanded the date row to include all information.
     * Second, I uploaded the tables to Bigquery.
     * Third, I applied the following steps to the datasets for both date ranges:
