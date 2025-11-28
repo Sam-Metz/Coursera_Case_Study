@@ -14,7 +14,7 @@ I transform raw sales data in to clean visuals that show trends over time allowi
         *  In Excel, I confirmed that the columns from all appended scorecards aligned. Once confirmed, I filtered the data to show only the rows with the column headers from the appended sales trackers and deleted these rows since they were no longer needed
         *  Added a column to the left of the file name column.
           *  As shown below, I extracted the date from the file name by using =TEXTBEFORE(TEXTAFTER(C2, "Tracker "), ".xlsx") and dragging the formula down to fill all of column B. I then copied the results in column B and pasted values only in column A. I used find and replace to find all "."  in column A and replace them with "/". I formatted column A as a date and deleted column B:
-          *  ![Compilation_Clean_11.28.25](Assets/Compilation_Clean_11.28.25.png)
+          *  ![Compilation_Clean_11.28.25](Assets/Compilation_Clean_2_11.28.25.png)
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
 ## Prompt
