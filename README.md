@@ -16,8 +16,11 @@ I transform raw sales data in to clean visuals that show trends over time allowi
           *  As shown below, I extracted the date from the file name by using =TEXTBEFORE(TEXTAFTER(C2, "Tracker "), ".xlsx") and dragging the formula down to fill all of column B. I then copied the results in column B and pasted values only in column A. I used find and replace to find all "."  in column A and replace them with "/". I formatted column A as a date and deleted column B:
           *  ![Compilation_Clean_11.28.25](Assets/Compilation_Clean_2_11.28.25.png)
       *  After completing these steps for each year, I combined the resulting year files in to one file containing a table that stacked all end of month sales trackers from January 2023 - July 2025.
-    *  For the Month to Date portion of my Power BI report, I applied the same month over month steps to the current month's trackers. This resulted in one month to date table with all of the current month's trackers stacked and time stamped. 
-    
+    *  For the Month to Date portion of my Power BI report, I applied the same month over month steps to append all trackers from the current month in to one table. This resulted in one month to date table with all of the current month's trackers stacked and time stamped.
+    *  I pulled these files in to Power BI using Power Query. I created one Query for Month to Date and another for Month over Month.
+## Power BI Model Design
+* My finished product would have 6 pages. Left to Right: Department month over month (department name redacted), Department month to date (department name redacted), supervisor month over month, supervisor month to date, agent month over month, and agent month to date as shown below:
+*  ![Page snip](Assets/Power_BI_Trend_Tracker_Tabs.png)
   
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
