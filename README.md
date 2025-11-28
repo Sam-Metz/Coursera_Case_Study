@@ -2,7 +2,7 @@
 I transform raw sales data in to clean visuals that show trends over time allowing stakeholders to make data-driven decisions more quickly and efficiently.
 ## Prepare the Data
 * Below is a snip of the raw data from the KPI (Key Performance Indicator) sales tracker for the department. This is sent out daily. It includes month to date sales data for each agent in our department. I have randomized the information in this data using the =RAND() function in Excel.
-![Random_Sales_Tracker](Assets/Random KPI Tracker Snip 11.28.25.png)
+* ![Random_Sales_Tracker](Assets/Random_KPI_Tracker_Snip_11.28.25.png)
 
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
