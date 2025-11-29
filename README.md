@@ -27,6 +27,8 @@ I transform raw sales data in to clean visuals that show trends over time allowi
   *  This dashboard tracks a total of 9 sales KPI's, but, for purposes of this portfolio, I will share my process from data to visualization using only conversion as a focal point.
   *  Agent Orders Measure (Redacted column name is the name of the orders column):
   *  ![Orders_Measure](Assets/Orders_Measure.png)
+  *  Agent Calls Measure:
+  *  ![Agent_Calls](Assets/Agent_Calls.png)
   
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
