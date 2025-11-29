@@ -1,6 +1,10 @@
-# Power BI KPI Dashboard
+#
+
+
+
+## Power BI KPI Dashboard
 I transform raw sales data in to clean visuals that show trends over time allowing stakeholders to make data-driven decisions more quickly and efficiently.
-## Prepare the Data
+### Prepare the Data
 * Below is a snip of the raw data from the KPI (Key Performance Indicator) sales tracker for the department. This is sent out daily by a team of analysts. It includes month to date sales data for each agent in the department. I have randomized the information in this data using the =RAND() function in Excel.
 * ![Random_Sales_Tracker](Assets/Random_KPI_Tracker_Snip_2_11.28.25.png)
 * My end product in Power BI will show Month to Date and Month over Month trends for sales agents, supervisors, and the entire department. 
@@ -18,7 +22,7 @@ I transform raw sales data in to clean visuals that show trends over time allowi
       *  After completing these steps for each year, I combined the resulting year files in to one file containing a table that stacked all end of month sales trackers from January 2023 - July 2025.
     *  For the Month to Date portion of my Power BI report, I applied the same month over month steps to append all trackers from the current month in to one table. This resulted in one month to date table with all of the current month's trackers stacked and time stamped.
     *  I pulled these files in to Power BI using Power Query. I created one Query for Month to Date and another for Month over Month.
-## Power BI Model Design
+### Power BI Model Design
 * My finished product would have 6 pages. Left to Right: Department month over month (department name redacted), Department month to date (department name redacted), supervisor month over month, supervisor month to date, agent month over month, and agent month to date as shown below:
 *  ![Page snip](Assets/Power_BI_Trend_Tracker_Tabs.png)
     *  All pages except for the department pages have a slicer. For the supervisor pages, the slicer filters by manager. For the agent pages, the slicer filters by agent.
@@ -44,7 +48,7 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     * Formatted the KPI to a percentage (if applicable)
 * Below is the final product after the report is published to the department. Agents and supervisors can now go to the report, navigate to a month over month or month to date tab, select a name using the slicer, and use the button navigator to select a KPI. This will show them a trend over time based on their selections:
 * ![Finished_Product](Assets/Finished_Trend_KPI_Tracker.png)
-## Updating the Model
+### Updating the Model
 * Each time a new sales tracker is released, I update the month to date data. Each time an end of month sales tracker is released, I update the month over month data. I make these updates with the following steps:
     * Make sure the new tracker's columns match my data in the Power BI model
     * Add the newly cleaned tracker to Power BI using get data
@@ -53,9 +57,9 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     * Save and publish
 <br><br><br><br><br>
 
-# Excel Payroll Calculator
+## Excel Payroll Calculator
 I transform the hours worked report in to a readable payroll calculator cutting weekly payroll processing time by 30 minutes and increasing accuracy.
-## Prepare the Data
+### Prepare the Data
 * The hours worked report is downloaded in the following format. This makes is tedious to calculate how many hours each agent works per day
 * ![Time_Card_Raw](Assets/Time_Card_Raw.png)
 * I clean this data by performing the following steps:
@@ -83,9 +87,9 @@ I transform the hours worked report in to a readable payroll calculator cutting 
 
 
 
-# Coursera_Case_Study
+## Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
-## Prompt
+### Prompt
 * You are a data analyst for a company called Bellabeat. Bellabeat makes wearable fitness devices.
 * Your team has been asked to anazlyze trends in smart fitness device usage in an effort to help Bellabeat reach their target market more effectively.
 * A data set about Fitbit users is provided by the company.
