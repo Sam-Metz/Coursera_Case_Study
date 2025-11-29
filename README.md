@@ -2,7 +2,7 @@
 I transform raw sales data in to clean visuals that show trends over time allowing stakeholders to make data-driven decisions more quickly and efficiently.
 ## Prepare the Data
 * Below is a snip of the raw data from the KPI (Key Performance Indicator) sales tracker for the department. This is sent out daily by our analysts. It includes month to date sales data for each agent in our department. I have randomized the information in this data using the =RAND() function in Excel.
-* ![Random_Sales_Tracker](Assets/Random_KPI_Tracker_Snip_11.28.25.png)
+* ![Random_Sales_Tracker](Assets/Random_KPI_Tracker_Snip_2_11.28.25.png)
 * My end product in Power BI will show Month to Date and Month over Month trends for sales agents, supervisors, and the entire department. 
    * For the month over month portion of my Power BI report, I will need to create one table with all of end of month Sales trackers stacked on top of one another. I will also add a date column so that each tracker is date-stamped after it has been appended to the larger table.
       * The end of month sales trackers for 2023, 2024 and 2025 were contained in separate files on my desktop based on their year as shown below:
