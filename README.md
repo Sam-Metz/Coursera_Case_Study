@@ -1,6 +1,6 @@
 # Sam Metz Data Portfolio
 Thank you for visiting my data portoflio. 
-* Projects (click the link to view the project)
+* Projects (click the link to view the project. click "home" at the end of any section to return here)
     * [Power BI KPI Dashboard](#power-bi-kpi-dashboard)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -59,7 +59,13 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     * Name the new tracker
     * Append the query adding the new tracker
     * Save and publish
+[Home](#sam-metzdata-portfolio)
 <br><br><br><br><br>
+
+
+
+
+
 
 ## Excel Payroll Calculator
 I transform the hours worked report in to a readable payroll calculator cutting weekly payroll processing time by 30 minutes and increasing accuracy.
