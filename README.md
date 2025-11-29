@@ -103,7 +103,7 @@ I transform the hours worked report in to a readable payroll calculator cutting 
 
 
 
-## Coursera_Case_Study
+## Coursera Case Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
 ### Prompt
 * You are a data analyst for a company called Bellabeat. Bellabeat makes wearable fitness devices.
