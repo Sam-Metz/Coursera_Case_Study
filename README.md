@@ -3,6 +3,7 @@ Thank you for visiting my data portoflio.
 * Projects (click the link to view the project. click "home" at the end of any section to return here)
     * [Power BI KPI Dashboard](#power-bi-kpi-dashboard)
     * [Excel Payroll Calculator](#excel-payroll-calculator)
+    * [Coursera Case Study](#coursera-case-study)
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
@@ -98,7 +99,7 @@ I transform the hours worked report in to a readable payroll calculator cutting 
     * ![Cleaned_Dataset_Payroll_Calculator](Assets/Cleaned_Dataset_Payroll_Calculator.png)
 
 [Home](#sam-metz-data-portfolio)
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -211,3 +212,5 @@ I analyze the data of Fitbit users to derive marketing insights for my stakehold
 * How much sleep do the users get per night?
    * ![Sleep Viz](Assets/Sleep_Viz.png)
    * Most users get between 5-9 hours of sleep per night. 23/30 users wore their watch to bed in this dataset. Bellabeat should have a sleep tracking feature and market this feature to their users.
+
+[Home](#sam-metz-data-portfolio)
