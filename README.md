@@ -37,7 +37,13 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     * Group the bookmarks by page (outlined in green)
     * Change bookmark settings to display, current page, and all visuals to ensure all visuals are controlled by the bookmarks and the bookmark navigator (highlighted in yellow).
     * Click on each bookmark and hide or unhide visuals to ensure the proper visual is showing for each bookmark (Outlined in red). Update the bookmark. 
-    * ![Bookmark_Method](Assets/Bookmark_Method.png)   
+    * ![Bookmark_Method](Assets/Bookmark_Method.png)
+* I formatted my visuals with the following steps:
+    * Set the y-axis minimum and maximum
+    * Added data labels
+    * Formatted the KPI to a percentage (if applicable)
+* Below is the final product after the report is published to the department. Agents and supervisors can now go to the report, navigate to a month over month or month to date tab, select a name using the slicer, and use the button navigator to select a KPI. This will show them a trend over time based on their selections:
+* ![Finished_Product](Assets/Finished_Trend_KPI_Tracker.png)
   
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
