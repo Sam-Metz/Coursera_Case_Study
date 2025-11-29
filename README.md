@@ -53,6 +53,14 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     * Save and publish
 <br><br><br><br><br>
 
+# Excel Payroll Calculator
+I transform the hours worked report in to a readable payroll calculator cutting weekly payroll processing time by 30 minutes and increasing accuracy.
+## Prepare the Data
+* The hours worked report is downloaded in the following format. This makes is tedious to calculate how many hours each agent works per day
+* ![Time_Card_Raw](Assets/Time_Card_Raw)
+
+
+
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
 ## Prompt
