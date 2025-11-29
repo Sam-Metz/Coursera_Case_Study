@@ -77,7 +77,7 @@ I transform the hours worked report in to a readable payroll calculator cutting 
     * Press "ctrl+e" to flash fill the date to the rest of the column.
     * Delete column e
     * Insert a new column to the left of column F
-    * Enter the following formula in to cell E2: =IF(LEN(F2)<6,(F2*24)/60,F2*24) and copy it down to fill all of column E
+    * Enter the following formula in to cell E2: =IF(LEN(F2)<6,(F2\*24)/60,F2\*24) and copy it down to fill all of column E
     * The clean data set is shown below
     * ![Cleaned_Dataset_Payroll_Calculator](Assets/Cleaned_Dataset_Payroll_Calculator.png)
 
