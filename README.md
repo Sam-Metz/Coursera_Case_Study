@@ -21,16 +21,16 @@ I transform raw sales data in to clean visuals that show trends over time allowi
 ## Power BI Model Design
 * My finished product would have 6 pages. Left to Right: Department month over month (department name redacted), Department month to date (department name redacted), supervisor month over month, supervisor month to date, agent month over month, and agent month to date as shown below:
 *  ![Page snip](Assets/Power_BI_Trend_Tracker_Tabs.png)
-  *  All pages except for the department pages have a slicer. For the supervisor pages, the slicer filters by manager. For the agent pages, the slicer filters by agent.
-  *  ![Sup_Slicer](Assets/Manager_Slicer.png) 
+    *  All pages except for the department pages have a slicer. For the supervisor pages, the slicer filters by manager. For the agent pages, the slicer filters by agent.
+    *  ![Sup_Slicer](Assets/Manager_Slicer.png) 
 *  I created measures using DAX
-  *  This dashboard tracks a total of 9 sales KPI's, but, for purposes of this portfolio, I will share my process from data to visualization using only conversion as a focal point.
-  *  _Agent Orders Measure_ (Redacted column name is the name of the orders column):
-  *  ![Orders_Measure](Assets/Orders_Measure.png)
-  *  _Agent Calls Measure_
-  *  ![Agent_Calls](Assets/Agent_Calls.png)
-  *  _Agent Conversion Measure_:
-  *  ![Agent_Conversion](Assets/Agent_Conversion.png)
+    *  This dashboard tracks a total of 9 sales KPI's, but, for purposes of this portfolio, I will share my process from data to visualization using only conversion as a focal point.
+    *  _Agent Orders Measure_ (Redacted column name is the name of the orders column):
+    *  ![Orders_Measure](Assets/Orders_Measure.png)
+    *  _Agent Calls Measure_
+    *  ![Agent_Calls](Assets/Agent_Calls.png)
+    *  _Agent Conversion Measure_:
+    *  ![Agent_Conversion](Assets/Agent_Conversion.png)
      
   
 # Coursera_Case_Study
