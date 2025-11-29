@@ -25,12 +25,12 @@ I transform raw sales data in to clean visuals that show trends over time allowi
   *  ![Sup_Slicer](Assets/Manager_Slicer.png) 
 *  I created measures using DAX
   *  This dashboard tracks a total of 9 sales KPI's, but, for purposes of this portfolio, I will share my process from data to visualization using only conversion as a focal point.
-    *  Agent Orders Measure (Redacted column name is the name of the orders column):
-    *  ![Orders_Measure](Assets/Orders_Measure.png)
-    *  Agent Calls Measure
-    *  ![Agent_Calls](Assets/Agent_Calls.png)
-    *  Agent Conversion Measure:
-    *  ![Agent_Conversion](Assets/Agent_Conversion.png)
+  *  Agent Orders Measure (Redacted column name is the name of the orders column):
+  *  Orders_Measure](Assets/Orders_Measure.png)
+  *  Agent Calls Measure
+  *  ![Agent_Calls](Assets/Agent_Calls.png)
+  *  Agent Conversion Measure:
+  *  ![Agent_Conversion](Assets/Agent_Conversion.png)
      
   
 # Coursera_Case_Study
