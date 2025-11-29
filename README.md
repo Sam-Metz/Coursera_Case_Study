@@ -57,7 +57,7 @@ I transform raw sales data in to clean visuals that show trends over time allowi
 I transform the hours worked report in to a readable payroll calculator cutting weekly payroll processing time by 30 minutes and increasing accuracy.
 ## Prepare the Data
 * The hours worked report is downloaded in the following format. This makes is tedious to calculate how many hours each agent works per day
-* ![Time_Card_Raw](Assets/Time_Card_Raw)
+* ![Time_Card_Raw](Assets/Time_Card_Raw.png)
 
 
 
