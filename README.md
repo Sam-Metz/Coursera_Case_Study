@@ -32,7 +32,12 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     *  _Agent Conversion Measure_:
     *  ![Agent_Conversion](Assets/Agent_Conversion.png)
 *  I set up a bookmark navigator (outline in green). Each button within the bookmark navigator selects a different KPI and reveals that KPI's chart for the agent selected in the slicer. I designed the line charts for each KPI by dragging the measure (agent conversion) to the y-axis and the date to the x-axis (outline in red). Power BI automatically recognized the date heirarchy which allows me to change the time perspective as needed
-    *  ![Conversion_Chart](Assets/Conversion_Chart.png)  
+    *  ![Conversion_Chart](Assets/Conversion_Chart.png)
+*  I tailored my selection settings with the following steps:
+    * Group the bookmarks by page (outlined in green)
+    * Change bookmark settings to display, current page, and all visuals to ensure all visuals are controlled by the bookmarks and the bookmark navigator (highlighted in yellow).
+    * Click on each bookmark and hide or unhide visuals to ensure the proper visual is showing for each bookmark (Outlined in red). Update the bookmark. 
+    * ![Bookmark_Method](Assets/Bookmark_Method.png)   
   
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
