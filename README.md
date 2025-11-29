@@ -1,7 +1,7 @@
 # Power BI KPI Dashboard
 I transform raw sales data in to clean visuals that show trends over time allowing stakeholders to make data-driven decisions more quickly and efficiently.
 ## Prepare the Data
-* Below is a snip of the raw data from the KPI (Key Performance Indicator) sales tracker for the department. This is sent out daily by our analysts. It includes month to date sales data for each agent in our department. I have randomized the information in this data using the =RAND() function in Excel.
+* Below is a snip of the raw data from the KPI (Key Performance Indicator) sales tracker for the department. This is sent out daily by a team of analysts. It includes month to date sales data for each agent in the department. I have randomized the information in this data using the =RAND() function in Excel.
 * ![Random_Sales_Tracker](Assets/Random_KPI_Tracker_Snip_2_11.28.25.png)
 * My end product in Power BI will show Month to Date and Month over Month trends for sales agents, supervisors, and the entire department. 
    * For the month over month portion of my Power BI report, I will need to create one table with all of end of month Sales trackers stacked on top of one another. I will also add a date column so that each tracker is date-stamped after it has been appended to the larger table.
@@ -11,7 +11,7 @@ I transform raw sales data in to clean visuals that show trends over time allowi
         *  Load the sales trackers in to power query excel.
         *  Change the first row to headers
         *  Close and apply the power query changes
-        *  In Excel, I confirmed that the columns from all appended scorecards aligned. Once confirmed, I filtered the data to show only the rows with the column headers from the appended sales trackers and deleted these rows since they were no longer needed
+        *  In Excel, I confirmed that the columns from all appended trackers aligned. Once confirmed, I filtered the data to show only the rows with the column headers from the appended sales trackers and deleted these rows since they were no longer needed
         *  Added a column to the left of the file name column.
           *  As shown below, I extracted the date from the file name by using =TEXTBEFORE(TEXTAFTER(C2, "Tracker "), ".xlsx") and dragging the formula down to fill all of column B. I then copied the results in column B and pasted values only in column A. I used find and replace to find all "."  in column A and replace them with "/". I formatted column A as a date and deleted column B:
           *  ![Compilation_Clean_11.28.25](Assets/Compilation_Clean_2_11.28.25.png)
@@ -24,14 +24,14 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     *  All pages except for the department pages have a slicer. For the supervisor pages, the slicer filters by manager. For the agent pages, the slicer filters by agent.
     *  ![Sup_Slicer](Assets/Manager_Slicer.png) 
 *  I created measures using DAX
-    *  This dashboard tracks a total of 9 sales KPI's, but, for purposes of this portfolio, I will share my process from data to visualization using only conversion as a focal point.
+    *  This dashboard tracks a total of 9 sales KPI's, but, for purposes of this portfolio, I will share my measure creation process using only conversion as a focal point.
     *  _Agent Orders Measure_ (Redacted column name is the name of the orders column):
     *  ![Orders_Measure](Assets/Orders_Measure.png)
     *  _Agent Calls Measure_
     *  ![Agent_Calls](Assets/Agent_Calls.png)
     *  _Agent Conversion Measure_:
     *  ![Agent_Conversion](Assets/Agent_Conversion.png)
-*  I set up a bookmark navigator (outline in green). Each button within the bookmark navigator selects a different KPI and reveals that KPI's chart for the agent selected in the slicer. I designed the line charts for each KPI by dragging the measure (agent conversion) to the y-axis and the date to the x-axis (outline in red). Power BI automatically recognized the date heirarchy which allows me to change the time perspective as needed
+*  I set up a bookmark navigator (outlined in green). Each button within the bookmark navigator selects a different KPI and reveals that KPI's chart for the agent selected in the slicer. I designed the line charts for each KPI by dragging the measure to the y-axis and the date to the x-axis (outlined in red). Power BI automatically recognized the date heirarchy which allows me to change the time perspective as needed:
     *  ![Trend_Chart](Assets/Trend_Chart_2.png)
 *  I tailored my selection settings with the following steps:
     * Group the bookmarks by page (outlined in green)
@@ -44,6 +44,13 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     * Formatted the KPI to a percentage (if applicable)
 * Below is the final product after the report is published to the department. Agents and supervisors can now go to the report, navigate to a month over month or month to date tab, select a name using the slicer, and use the button navigator to select a KPI. This will show them a trend over time based on their selections:
 * ![Finished_Product](Assets/Finished_Trend_KPI_Tracker.png)
+## Updating the Model
+* Each time a new sales tracker is released, I update the month to date data. Each time an end of month sales tracker is released, I update the month over month data. I make these updates with the following steps:
+    * Make sure the new tracker's columns match my data in the Power BI model
+    * Add the newly cleaned tracker to Power BI using get data
+    * Name the new tracker
+    * Append the query adding the new tracker
+    * Save and publish
   
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
