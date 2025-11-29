@@ -51,11 +51,7 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     * Name the new tracker
     * Append the query adding the new tracker
     * Save and publish
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br>
 # Coursera_Case_Study
 I analyze the data of Fitbit users to derive marketing insights for my stakeholders. This is a case study for my Google Data Analytics Certificate. To complete this task, I used the 6 step data analyses process outlined in the course: ask, prepare, process, analyze, share, act. 
 ## Prompt
