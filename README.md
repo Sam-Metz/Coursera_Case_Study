@@ -59,7 +59,8 @@ I transform raw sales data in to clean visuals that show trends over time allowi
     * Name the new tracker
     * Append the query adding the new tracker
     * Save and publish
-[Home](#sam-metzdata-portfolio)
+
+[Home](#sam-metz-data-portfolio)
 <br><br><br><br><br>
 
 
