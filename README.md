@@ -58,6 +58,21 @@ I transform the hours worked report in to a readable payroll calculator cutting 
 ## Prepare the Data
 * The hours worked report is downloaded in the following format. This makes is tedious to calculate how many hours each agent works per day
 * ![Time_Card_Raw](Assets/Time_Card_Raw.png)
+* I clean this data by performing the following steps:
+    * Unmerge all columns
+    * Delete Column A
+    * Insert a new column next to column B
+    * Highlight column B
+    * Find and select: Go to special: Blanks
+    * Type "=" then "up-arrow" then "ctrl+enter" to copy each agent's name to the blank cells below their name until excel encounters a new agent name.
+    * Copy Column B
+    * Paste Column B values only on Column A
+    * Delete Column B
+    * Highlight Row 1 and add filters
+    * Filter Column B to show "Total" and blanks
+    * Delete remaining rows after filtering
+    * Clear filter from Column B
+    * 
 
 
 
